@@ -1,0 +1,47 @@
+/* Subject field styling */
+
+.subject-container {
+  margin-bottom: 16px;
+}
+
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.subject-label {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+
+.subject-toolbar {
+  display: flex;
+  gap: 8px;
+}
+
+.subject-editor {
+  position: relative;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.subject-input {
+  padding: 8px 12px;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 38px;
+}
+
+.subject-placeholder {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  color: #999;
+  pointer-events: none;
+  font-size: 14px;
+}
